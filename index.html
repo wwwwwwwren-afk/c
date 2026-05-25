@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #2563eb;
+            color: white;
+            font-size: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #111;
+        }
+        .bio {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .link-item {
+            padding: 14px 20px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.2s ease;
+        }
+        .link-item:hover {
+            background-color: #f3f4f6;
+            border-color: #d1d5db;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">👤</div>
+        <h1>你好，我是华</h1>
+        <p class="bio">这里可以写你的个人简介，比如“技术爱好者 / 折腾小站中”</p>
+        
+        <div class="links">
+            <a href="#" class="link-item">📁 我的项目</a>
+            <a href="#" class="link-item">✉️ 联系我</a>
+            <a href="#" class="link-item">📝 我的博客</a>
+        </div>
+
+        <div class="footer">
+            © 2026 个人主页 · Powered by GitHub Pages
+        </div>
+    </div>
+</body>
+</html>
